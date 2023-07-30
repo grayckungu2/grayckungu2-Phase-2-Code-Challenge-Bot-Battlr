@@ -15,7 +15,7 @@ const App = () => {
   const [selectedFilters, setSelectedFilters] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8005/bots')
+    fetch('http://localhost:8001/bots')
       .then((response) => response.json())
       .then((data) => setBots(data))
       .catch((error) => console.log(error));
