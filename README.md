@@ -3,13 +3,13 @@ Bot-battlr is a React is galactic web app that will allow them to browse through
 etting Started with Create React App
 # Project Setup
 create a new app in your local machine 
-npm install
-npm run server
- we need to add the following scripts in the package json 
-Run this command to get the backend started:
-json-server --watch db.json( start": "PORT=8000 react-scripts start", "server": "json-server --watch db.json -p 8001"and  )
+ I have added the following scripts in the package json ( start": "PORT=8000 react-scripts start", "server": "json-server --watch db.json -p 8001"and  )
+ To run the backend 
+ run npm install
+ run server
 Test your server by visiting this route in the browser:
 http://localhost:8001/bots
+in a different terminal run npm start (start :Port 8000)
 # projectDeliverables
 As a user, I should be able to:
 
