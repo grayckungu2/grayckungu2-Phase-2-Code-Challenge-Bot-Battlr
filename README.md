@@ -1,15 +1,20 @@
 # grayckungu2-Phase-2-Code-Challenge-Bot-Battlr
 Bot-battlr is a React is galactic web app that will allow them to browse through a list of robots, view a robot's details, and, enlist a bot into their army.
 etting Started with Create React App
+---
+
 # Project Setup
 create a new app in your local machine 
  I have added the following scripts in the package json ( start": "PORT=8000 react-scripts start", "server": "json-server --watch db.json -p 8001"and  )
+ 
+ ---
  To run the backend 
- run npm install
- run server
-Test your server by visiting this route in the browser:
+ *run npm install
+ *run server
+*Test your server by visiting this route in the browser:
 http://localhost:8001/bots
-in a different terminal run npm start (start :Port 8000)
+In a different terminal
+*run npm start (start :Port 8000)
 # projectDeliverables
 As a user, I should be able to:
 
